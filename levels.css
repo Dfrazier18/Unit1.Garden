@@ -29,3 +29,25 @@
 #level-3.garden .onions {
   grid-column: 2 / span 3;
 }
+
+#level-4.garden {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#level-4.garden .peas {
+  grid-column: 1 / span 2;
+}
+
+#level-4.garden .tomatoes {
+  grid-row: 2;
+}
+
+#level-4.garden .onions {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+#level-4.garden .carrots {
+  grid-column: 4;
+  grid-row: 1 / span 2;
+}
