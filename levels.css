@@ -5,4 +5,9 @@
 
 #level-2.garden {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#level-2.garden .peas {
+  grid-column: 1 / span 2;
 }
