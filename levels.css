@@ -11,3 +11,21 @@
 #level-2.garden .peas {
   grid-column: 1 / span 2;
 }
+
+#level-3.garden {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+#level-3.garden .carrots {
+  grid-column: 1 / span 3;
+}
+
+#level-3.garden .tomatoes {
+  grid-column: 1 / span 2;
+}
+
+#level-3.garden .onions {
+  grid-column: 2 / span 3;
+}
